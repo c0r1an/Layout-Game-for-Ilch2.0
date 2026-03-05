@@ -6,7 +6,7 @@ class Config extends \Ilch\Config\Install
 {
     public $config = [
         'name' => 'Game',
-        'version' => '1.5.0',
+        'version' => '1.0.0',
         'ilchCore' => '2.2.0',
         'author' => 'c0r1an',
         'link' => 'https://ilch.de',
