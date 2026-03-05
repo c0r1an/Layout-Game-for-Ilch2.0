@@ -10,7 +10,7 @@ class Config extends \Ilch\Config\Install
         'ilchCore' => '2.2.0',
         'author' => 'c0r1an',
         'link' => 'https://ilch.de',
-        'desc' => 'Dunkles Gaming-Layout im Stil einer E-Sports Landingpage mit Magazin-Bloecken und rechter Sidebar.',
+        'desc' => 'Dunkles Gaming-Layout im Stil einer E-Sports Landingpage mit Magazin-Blöcken und rechter Sidebar.',
         'layouts' => [
             'panel' => [
                 ['module' => 'user', 'controller' => 'login'],
@@ -86,7 +86,7 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderText1' => [
                 'type' => 'textarea',
-                'default' => 'Ein showcase-orientiertes Layout fuer Clans, E-Sports-Teams und Gaming-Communities.',
+                'default' => 'Ein showcase-orientiertes Layout für Clans, E-Sports-Teams und Gaming-Communities.',
                 'description' => '',
             ],
             'sliderButtonLabel1' => [
@@ -116,12 +116,12 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderTitle2' => [
                 'type' => 'text',
-                'default' => 'Baue dein naechstes Highlight',
+                'default' => 'Baue dein nächstes Highlight',
                 'description' => '',
             ],
             'sliderText2' => [
                 'type' => 'textarea',
-                'default' => 'Nutze den zweiten Slide fuer Aktionen, Team-Updates oder Match-Ankuendigungen.',
+                'default' => 'Nutze den zweiten Slide für Aktionen, Team-Updates oder Match-Ankündigungen.',
                 'description' => '',
             ],
             'sliderButtonLabel2' => [
@@ -151,17 +151,17 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderTitle3' => [
                 'type' => 'text',
-                'default' => 'Setze eine Hero-Story ueber volle Breite',
+                'default' => 'Setze eine Hero-Story über volle Breite',
                 'description' => '',
             ],
             'sliderText3' => [
                 'type' => 'textarea',
-                'default' => 'Nutze den dritten Slide fuer Event-Trailer, Top-Artikel oder Sponsor-Kampagnen.',
+                'default' => 'Nutze den dritten Slide für Event-Trailer, Top-Artikel oder Sponsor-Kampagnen.',
                 'description' => '',
             ],
             'sliderButtonLabel3' => [
                 'type' => 'text',
-                'default' => 'Artikel oeffnen',
+                'default' => 'Artikel öffnen',
                 'description' => '',
             ],
             'sliderButtonUrl3' => [
@@ -578,7 +578,7 @@ class Config extends \Ilch\Config\Install
     {
         return [
             'home' => 'Nur Startseite',
-            'all' => 'Ueberall',
+            'all' => 'Überall',
         ];
     }
 }
