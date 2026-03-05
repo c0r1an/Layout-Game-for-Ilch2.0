@@ -23,17 +23,17 @@ class Config extends \Ilch\Config\Install
             ],
             'siteName' => [
                 'type' => 'text',
-                'default' => 'SquadForce',
+                'default' => 'Ilch Game',
                 'description' => '',
             ],
             'siteTagline' => [
                 'type' => 'text',
-                'default' => 'Competitive Gaming Network',
+                'default' => 'Gaming Community Netzwerk',
                 'description' => '',
             ],
             'footerCopyright' => [
                 'type' => 'text',
-                'default' => 'Copyright © {year} SquadForce',
+                'default' => 'Copyright © {year} Ilch Game',
                 'description' => '',
             ],
             'siteLogo' => [
@@ -76,22 +76,22 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderTag1' => [
                 'type' => 'text',
-                'default' => 'Featured story',
+                'default' => 'Titelstory',
                 'description' => '',
             ],
             'sliderTitle1' => [
                 'type' => 'text',
-                'default' => 'He made his passenger captain of one',
+                'default' => 'Er machte seinen Passagier zum Captain',
                 'description' => '',
             ],
             'sliderText1' => [
                 'type' => 'textarea',
-                'default' => 'A showcase-driven layout for clans, e-sports teams and gaming communities.',
+                'default' => 'Ein showcase-orientiertes Layout fuer Clans, E-Sports-Teams und Gaming-Communities.',
                 'description' => '',
             ],
             'sliderButtonLabel1' => [
                 'type' => 'text',
-                'default' => 'Read more',
+                'default' => 'Mehr lesen',
                 'description' => '',
             ],
             'sliderButtonUrl1' => [
@@ -111,22 +111,22 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderTag2' => [
                 'type' => 'text',
-                'default' => 'Latest campaign',
+                'default' => 'Aktuelle Kampagne',
                 'description' => '',
             ],
             'sliderTitle2' => [
                 'type' => 'text',
-                'default' => 'Build your next highlight reel',
+                'default' => 'Baue dein naechstes Highlight',
                 'description' => '',
             ],
             'sliderText2' => [
                 'type' => 'textarea',
-                'default' => 'Add a second slide for promotions, team updates or upcoming match announcements.',
+                'default' => 'Nutze den zweiten Slide fuer Aktionen, Team-Updates oder Match-Ankuendigungen.',
                 'description' => '',
             ],
             'sliderButtonLabel2' => [
                 'type' => 'text',
-                'default' => 'View update',
+                'default' => 'Update ansehen',
                 'description' => '',
             ],
             'sliderButtonUrl2' => [
@@ -146,22 +146,22 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderTag3' => [
                 'type' => 'text',
-                'default' => 'Tournament',
+                'default' => 'Turnier',
                 'description' => '',
             ],
             'sliderTitle3' => [
                 'type' => 'text',
-                'default' => 'Shape a full-width hero story',
+                'default' => 'Setze eine Hero-Story ueber volle Breite',
                 'description' => '',
             ],
             'sliderText3' => [
                 'type' => 'textarea',
-                'default' => 'Use the third slide for event trailers, featured articles or sponsor campaigns.',
+                'default' => 'Nutze den dritten Slide fuer Event-Trailer, Top-Artikel oder Sponsor-Kampagnen.',
                 'description' => '',
             ],
             'sliderButtonLabel3' => [
                 'type' => 'text',
-                'default' => 'Open article',
+                'default' => 'Artikel oeffnen',
                 'description' => '',
             ],
             'sliderButtonUrl3' => [
@@ -195,7 +195,7 @@ class Config extends \Ilch\Config\Install
             ],
             'platformText1' => [
                 'type' => 'text',
-                'default' => 'View games',
+                'default' => 'Spiele ansehen',
                 'description' => '',
             ],
             'platformUrl1' => [
@@ -216,7 +216,7 @@ class Config extends \Ilch\Config\Install
             ],
             'platformText2' => [
                 'type' => 'text',
-                'default' => 'View games',
+                'default' => 'Spiele ansehen',
                 'description' => '',
             ],
             'platformUrl2' => [
@@ -237,7 +237,7 @@ class Config extends \Ilch\Config\Install
             ],
             'platformText3' => [
                 'type' => 'text',
-                'default' => 'View games',
+                'default' => 'Spiele ansehen',
                 'description' => '',
             ],
             'platformUrl3' => [
@@ -266,17 +266,17 @@ class Config extends \Ilch\Config\Install
             ],
             'card1Tag' => [
                 'type' => 'text',
-                'default' => 'Latest',
+                'default' => 'Neu',
                 'description' => '',
             ],
             'card1Title' => [
                 'type' => 'text',
-                'default' => 'Lesser years third in youre rule',
+                'default' => 'Neuer Beitrag aus deinem Bereich',
                 'description' => '',
             ],
             'card1Text' => [
                 'type' => 'textarea',
-                'default' => 'Short teaser content styled to match the reference layout.',
+                'default' => 'Kurzer Teasertext passend zum Layoutstil.',
                 'description' => '',
             ],
             'card1Url' => [
@@ -301,12 +301,12 @@ class Config extends \Ilch\Config\Install
             ],
             'card2Title' => [
                 'type' => 'text',
-                'default' => 'We found a witch! may we burn her?',
+                'default' => 'Wir haben eine Hexe gefunden',
                 'description' => '',
             ],
             'card2Text' => [
                 'type' => 'textarea',
-                'default' => 'Short teaser content styled to match the reference layout.',
+                'default' => 'Kurzer Teasertext passend zum Layoutstil.',
                 'description' => '',
             ],
             'card2Url' => [
@@ -331,12 +331,12 @@ class Config extends \Ilch\Config\Install
             ],
             'card3Title' => [
                 'type' => 'text',
-                'default' => 'Creepeth youre a behold heaven',
+                'default' => 'Wichtige Neuigkeiten und Updates',
                 'description' => '',
             ],
             'card3Text' => [
                 'type' => 'textarea',
-                'default' => 'Short teaser content styled to match the reference layout.',
+                'default' => 'Kurzer Teasertext passend zum Layoutstil.',
                 'description' => '',
             ],
             'card3Url' => [
@@ -356,17 +356,17 @@ class Config extends \Ilch\Config\Install
             ],
             'card4Tag' => [
                 'type' => 'text',
-                'default' => 'Action',
+                'default' => 'Aktion',
                 'description' => '',
             ],
             'card4Title' => [
                 'type' => 'text',
-                'default' => 'Doesnt bring moveth youre was',
+                'default' => 'Verpasse keine wichtigen Aktionen',
                 'description' => '',
             ],
             'card4Text' => [
                 'type' => 'textarea',
-                'default' => 'Short teaser content styled to match the reference layout.',
+                'default' => 'Kurzer Teasertext passend zum Layoutstil.',
                 'description' => '',
             ],
             'card4Url' => [
@@ -384,7 +384,7 @@ class Config extends \Ilch\Config\Install
             ],
             'latestVideoTitle' => [
                 'type' => 'text',
-                'default' => 'Latest Video',
+                'default' => 'Neuestes Video',
                 'description' => '',
             ],
             'latestVideoSource' => [
@@ -418,7 +418,7 @@ class Config extends \Ilch\Config\Install
             ],
             'socialWidgetTitle' => [
                 'type' => 'text',
-                'default' => 'We Are Social',
+                'default' => 'Wir sind Social',
                 'description' => '',
             ],
             'socialItem1Icon' => [
