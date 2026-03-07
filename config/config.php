@@ -10,7 +10,7 @@ class Config extends \Ilch\Config\Install
         'ilchCore' => '2.2.0',
         'author' => 'c0r1an',
         'link' => 'https://ilch.de',
-        'desc' => 'Dunkles Gaming-Layout im Stil einer E-Sports Landingpage mit Magazin-BlÃ¶cken und rechter Sidebar.',
+        'desc' => 'Dunkles Gaming-Layout im Stil einer E-Sports Landingpage mit Magazin-Blöcken und rechter Sidebar.',
         'layouts' => [
             'panel' => [
                 ['module' => 'user', 'controller' => 'login'],
@@ -33,11 +33,11 @@ class Config extends \Ilch\Config\Install
             ],
             'footerCopyright' => [
                 'type' => 'text',
-                'default' => 'Copyright Â© {year} Ilch Game',
+                'default' => 'Copyright © {year} Ilch Game',
                 'description' => '',
             ],
             'siteLogo' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -86,7 +86,7 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderText1' => [
                 'type' => 'textarea',
-                'default' => 'Ein showcase-orientiertes Layout fÃ¼r Clans, E-Sports-Teams und Gaming-Communities.',
+                'default' => 'Ein showcase-orientiertes Layout für Clans, E-Sports-Teams und Gaming-Communities.',
                 'description' => '',
             ],
             'sliderButtonLabel1' => [
@@ -100,12 +100,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage1' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage1' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -116,12 +116,12 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderTitle2' => [
                 'type' => 'text',
-                'default' => 'Baue dein nÃ¤chstes Highlight',
+                'default' => 'Baue dein nächstes Highlight',
                 'description' => '',
             ],
             'sliderText2' => [
                 'type' => 'textarea',
-                'default' => 'Nutze den zweiten Slide fÃ¼r Aktionen, Team-Updates oder Match-AnkÃ¼ndigungen.',
+                'default' => 'Nutze den zweiten Slide für Aktionen, Team-Updates oder Match-Ankündigungen.',
                 'description' => '',
             ],
             'sliderButtonLabel2' => [
@@ -135,12 +135,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage2' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage2' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -151,17 +151,17 @@ class Config extends \Ilch\Config\Install
             ],
             'sliderTitle3' => [
                 'type' => 'text',
-                'default' => 'Setze eine Hero-Story Ã¼ber volle Breite',
+                'default' => 'Setze eine Hero-Story über volle Breite',
                 'description' => '',
             ],
             'sliderText3' => [
                 'type' => 'textarea',
-                'default' => 'Nutze den dritten Slide fÃ¼r Event-Trailer, Top-Artikel oder Sponsor-Kampagnen.',
+                'default' => 'Nutze den dritten Slide für Event-Trailer, Top-Artikel oder Sponsor-Kampagnen.',
                 'description' => '',
             ],
             'sliderButtonLabel3' => [
                 'type' => 'text',
-                'default' => 'Artikel Ã¶ffnen',
+                'default' => 'Artikel öffnen',
                 'description' => '',
             ],
             'sliderButtonUrl3' => [
@@ -170,12 +170,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage3' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage3' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -183,7 +183,7 @@ class Config extends \Ilch\Config\Install
                 'type' => 'separator',
             ],
             'platformIcon1' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-solid fa-desktop',
                 'description' => '',
                 'options' => [],
@@ -204,7 +204,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'platformIcon2' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-brands fa-playstation',
                 'description' => '',
                 'options' => [],
@@ -225,7 +225,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'platformIcon3' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-brands fa-xbox',
                 'description' => '',
                 'options' => [],
@@ -285,7 +285,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card1Image' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -315,7 +315,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card2Image' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -345,7 +345,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card3Image' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -375,7 +375,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card4Image' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -399,7 +399,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'latestVideoFile' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -422,7 +422,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem1Icon' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-brands fa-facebook-f',
                 'description' => '',
                 'options' => [],
@@ -433,7 +433,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem2Icon' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-brands fa-x-twitter',
                 'description' => '',
                 'options' => [],
@@ -444,7 +444,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem3Icon' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-brands fa-instagram',
                 'description' => '',
                 'options' => [],
@@ -455,7 +455,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem4Icon' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-brands fa-youtube',
                 'description' => '',
                 'options' => [],
@@ -466,7 +466,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem5Icon' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-brands fa-twitch',
                 'description' => '',
                 'options' => [],
@@ -477,7 +477,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem6Icon' => [
-                'type' => 'text',
+                'type' => 'iconpicker',
                 'default' => 'fa-brands fa-discord',
                 'description' => '',
                 'options' => [],
@@ -578,7 +578,7 @@ class Config extends \Ilch\Config\Install
     {
         return [
             'home' => 'Nur Startseite',
-            'all' => 'Ãœberall',
+            'all' => 'Überall',
         ];
     }
 }
