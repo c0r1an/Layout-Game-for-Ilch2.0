@@ -37,7 +37,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'siteLogo' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -100,12 +100,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage1' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage1' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -135,12 +135,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage2' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage2' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -170,12 +170,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage3' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage3' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -183,7 +183,7 @@ class Config extends \Ilch\Config\Install
                 'type' => 'separator',
             ],
             'platformIcon1' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-solid fa-desktop',
                 'description' => '',
                 'options' => [],
@@ -204,7 +204,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'platformIcon2' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-brands fa-playstation',
                 'description' => '',
                 'options' => [],
@@ -225,7 +225,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'platformIcon3' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-brands fa-xbox',
                 'description' => '',
                 'options' => [],
@@ -285,7 +285,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card1Image' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -315,7 +315,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card2Image' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -345,7 +345,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card3Image' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -375,7 +375,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card4Image' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -399,7 +399,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'latestVideoFile' => [
-                'type' => 'mediaselection',
+                'type' => 'text',
                 'default' => '',
                 'description' => '',
             ],
@@ -422,7 +422,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem1Icon' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-brands fa-facebook-f',
                 'description' => '',
                 'options' => [],
@@ -433,7 +433,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem2Icon' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-brands fa-x-twitter',
                 'description' => '',
                 'options' => [],
@@ -444,7 +444,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem3Icon' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-brands fa-instagram',
                 'description' => '',
                 'options' => [],
@@ -455,7 +455,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem4Icon' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-brands fa-youtube',
                 'description' => '',
                 'options' => [],
@@ -466,7 +466,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem5Icon' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-brands fa-twitch',
                 'description' => '',
                 'options' => [],
@@ -477,7 +477,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'socialItem6Icon' => [
-                'type' => 'iconpicker',
+                'type' => 'text',
                 'default' => 'fa-brands fa-discord',
                 'description' => '',
                 'options' => [],
