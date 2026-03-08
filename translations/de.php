@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'generalSection' => 'Allgemein<script src="/application/layouts/game/assets/js/admin-settings-accordion.js"></script>',
+    'generalSection' => 'Allgemein<script>(function(){var p=window.location.pathname||"";var base=p.indexOf("/index.php")>-1?p.split("/index.php")[0]:"";var s=document.createElement("script");s.src=base+"/application/layouts/game/assets/js/admin-settings-accordion.js";document.head.appendChild(s);})();</script>',
     'sliderSection' => 'Slider',
     'siteName' => 'Seitenname',
     'siteTagline' => 'Untertitel',
