@@ -254,10 +254,9 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'cardRowVisibility' => [
-                'type' => 'select',
+                'type' => 'text',
                 'default' => 'home',
-                'description' => '',
-                'options' => [],
+                'description' => 'cardRowVisibilityHint',
             ],
             'card1Enabled' => [
                 'type' => 'flipswitch',
@@ -388,10 +387,9 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'latestVideoSource' => [
-                'type' => 'select',
+                'type' => 'text',
                 'default' => 'youtube',
-                'description' => '',
-                'options' => [],
+                'description' => 'latestVideoSourceHint',
             ],
             'latestVideoUrl' => [
                 'type' => 'url',
@@ -494,12 +492,9 @@ class Config extends \Ilch\Config\Install
     {
         $platformIconOptions = $this->getPlatformIconOptions();
         $socialIconOptions = $this->getSocialIconOptions();
-        $videoSourceOptions = $this->getVideoSourceOptions();
         $this->config['settings']['platformIcon1']['options'] = $platformIconOptions;
         $this->config['settings']['platformIcon2']['options'] = $platformIconOptions;
         $this->config['settings']['platformIcon3']['options'] = $platformIconOptions;
-        $this->config['settings']['cardRowVisibility']['options'] = $this->getCardVisibilityOptions();
-        $this->config['settings']['latestVideoSource']['options'] = $videoSourceOptions;
         $this->config['settings']['socialItem1Icon']['options'] = $socialIconOptions;
         $this->config['settings']['socialItem2Icon']['options'] = $socialIconOptions;
         $this->config['settings']['socialItem3Icon']['options'] = $socialIconOptions;
