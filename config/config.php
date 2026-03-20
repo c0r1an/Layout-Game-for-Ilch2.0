@@ -12,10 +12,7 @@ class Config extends \Ilch\Config\Install
         'link' => 'https://ilch.de',
         'desc' => 'Dunkles Gaming-Layout im Stil einer E-Sports Landingpage mit Magazin-Blöcken und rechter Sidebar.',
         'layouts' => [
-            'panel' => [
-                ['module' => 'user', 'controller' => 'login'],
-                ['module' => 'user', 'controller' => 'regist'],
-            ],
+
         ],
         'settings' => [
             'generalSection' => [
@@ -37,7 +34,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'siteLogo' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -100,12 +97,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage1' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage1' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -135,12 +132,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage2' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage2' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -170,12 +167,12 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'sliderLeftImage3' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
             'sliderCenterImage3' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -284,7 +281,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card1Image' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -314,7 +311,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card2Image' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -344,7 +341,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card3Image' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -374,7 +371,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'card4Image' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
@@ -397,7 +394,7 @@ class Config extends \Ilch\Config\Install
                 'description' => '',
             ],
             'latestVideoFile' => [
-                'type' => 'text',
+                'type' => 'mediaselection',
                 'default' => '',
                 'description' => '',
             ],
